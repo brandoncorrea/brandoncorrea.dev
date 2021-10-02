@@ -87,4 +87,15 @@ were to start from the upper bound (N - 1), we would still
 end up with a prime number. However, we could not guarantee 
 that it would be a greatest or least prime.
 
+### Edit, 10/2/2021
+I was mistaken on that last note. If you start the process 
+from the upper bound (N - 1), then you would end up with
+the smallest prime number. This is because the first divisor
+reached would be the product of all but the smallest prime
+factor.
+
+In the example of 60, the first divisor would be 30 
+(2 x 3 x 5). This would leave us with the smallest prime 
+number of 2.
+
 [euler-3]: https://projecteuler.net/problem=3
