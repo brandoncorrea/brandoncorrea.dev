@@ -61,7 +61,7 @@ then we would get a function to `exclaim!` things!
 ````
 
 This is how Clojure sees your code; just a bunch of lists containing random 
-data and lists of lists of more data. It isn't until clojure _evaluates_ the 
+data and lists of lists of more data. It isn't until Clojure _evaluates_ the 
 lists that it can decide how it wants to handle them.
 
 ### Cheating in Clojure
