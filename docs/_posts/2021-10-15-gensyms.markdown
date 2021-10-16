@@ -1,0 +1,114 @@
+---
+layout: post
+title:  "Gensyms"
+date:   2021-10-15 7:52:05 -0400
+categories: clojure
+---
+
+There are lots of tools available to help us write macros. One in particular is
+`gensym`, which I'm like 96% sure means "Generate Symbol," but I can't seem
+to find a straight answer anywhere.
+
+### What is a gensym?
+
+`gensym` is used to create unique symbols. This can be useful in scenarios 
+where symbols can conflict with one another, like in macros!
+
+````clojure
+=> (gensym)
+G__2045
+=> (gensym)
+G__2048
+````
+
+We can see that back-to-back calls will give us two symbols starting with `G__`
+and what seems like some random number. This number isn't so random, though. 
+If we keep calling `gensym`, we will see that the number keep going up!
+
+### Named Symbols
+
+You may be saying to yourself right about now, "Okay but I don't like the 
+`G__` part. It's ugly and I wanna put something else there like 
+'Fluffy Unicorn'." Okay fine. Have it your way...
+
+````clojure
+user=> (gensym "Fluffy Unicorn")
+Fluffy Unicorn2364
+user=> (gensym "Fluffy Unicorn")
+Fluffy Unicorn2367
+````
+
+Wait, that symbol has a space in it! Is that even allowed?! Maybe... depends
+on how you want to use it. But `gensym` allows it! Of course, you could always
+just use `(gensym "FluffyUnicorn")` instead.
+
+### Hash Shortcut
+
+You may also be saying to yourself, "This whole `(gensym ...)` syntax is way 
+too clunky. I don't wanna have to put that all over my code." There's a 
+solution to that as well! 
+
+Simply place a `#` at the end of the name of your auto-gensym. You'll also 
+need to use a syntax quote for this one.
+
+````clojure
+user=> `(FluffyUnicorn#)
+(FluffyUnicorn__2369__auto__)
+user=> `(FluffyUnicorn#)
+(FluffyUnicorn__2372__auto__)
+````
+
+### Breaking Gensym
+
+So `gensym` will _always_ create a unique symbol? Well, not _always_. Unless 
+you have some weird naming going on, you shouldn't have any conflicts.
+
+````clojure
+user=> (gensym)
+G__2389
+user=> (gensym)
+G__2392
+user=> (def G__2395 "Code Goblin")
+#'user/G__2395
+user=> (gensym)
+G__2395
+````
+
+In the REPL, the first two calls tells us how these numbers are incrementing. 
+Next, we predict the name of the next `gensym` and define something with that 
+name. When we call `gensym` again, this produces a symbol with the same name 
+as our defined symbol!
+
+This is kinda cool, and while it technically _could_ cause issues, 
+it should work fine for just about every situation you'd use it in. 
+Just don't name things like `G__1234` or `FluffyUnicorn__4321__auto__`.
+
+### The Inner Workings
+
+So how does `gensym` actually work? How does it always generate a unique symbol 
+and why does it keep incrementing? Why is it that we can generate a symbol
+that's already defined? Let's take a look at `gensym`'s code.
+
+````clojure
+(defn gensym
+  ([] (gensym "G__"))
+  ([prefix-string] 
+   (. clojure.lang.Symbol (intern (str prefix-string (str (. clojure.lang.RT (nextID))))))))
+````
+
+We see that the prefix defaults to `G__`, which makes sense.
+`clojure.lang.Symbol` and `intern` both help with converting to a symbol, 
+but `nextID` is where the real magic happens!
+
+````java
+static AtomicInteger id;
+...
+public static int nextID() {
+    return id.getAndIncrement();
+}
+````
+
+Turns out this is actually a Java function that does one simple task: 
+`getAndIncrement` the `id`. That explains why the numbers keep going up! It 
+also explains why we can create a symbol that seems to conflict with a `gensym`,
+though it should never create a symbol that conflicts with itself.
