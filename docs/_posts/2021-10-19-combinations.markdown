@@ -2,7 +2,7 @@
 layout: post
 title:  "Combinations"
 date:   2021-10-19 7:52:05 -0400
-categories: project euler
+categories: euler apprenticeship
 ---
 
 Project Euler really forces you to think about problems in a different way.

@@ -2,7 +2,7 @@
 layout: post
 title:  "Creativity"
 date:   2021-10-18 7:52:05 -0400
-categories: programming
+categories: programming apprenticeship
 ---
 
 There are no right answers. Of course, to say that 1 + 1 = 3 would be false. 

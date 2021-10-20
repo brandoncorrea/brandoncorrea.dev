@@ -2,7 +2,7 @@
 layout: post
 title:  "Mutlimethods"
 date:   2021-10-07 7:52:05 -0400
-categories: clojure
+categories: clojure apprenticeship
 ---
 
 Today I read about multimethods in Clojure, what they are and how they're used. 

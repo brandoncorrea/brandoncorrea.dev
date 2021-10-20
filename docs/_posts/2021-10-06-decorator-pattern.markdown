@@ -2,7 +2,7 @@
 layout: post
 title:  "Decorator Pattern"
 date:   2021-10-06 08:11:22 -0400
-categories: design patterns
+categories: patterns apprenticeship
 ---
 
 The Decorator Pattern, or Wrapper Pattern, is a design pattern that 
