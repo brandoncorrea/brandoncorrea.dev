@@ -64,3 +64,31 @@ adding an integer cast on top of that would only slow things down.
 Additionally, I'm sure that integer casting was on the table when the original 
 developers were writing the `quot` function, so there's probably a reason they favored 
 the use of Java's quotient function over integer casting.
+
+### Edit: More on Performance
+
+A coworker of mine created a [benchmark][benchmark-code] function and sent me
+the results of the different division methods discussed above. Check out his 
+[blog post][benchmark-blog] on how the function works! It's very useful for a 
+lot of scenarios.
+
+In his results, we can see that `quot` is almost four times faster than `/`!
+Crazy, right? I would have thought these would be just about the same. Not only 
+that though, `quot` is almost seven times faster than our original 
+integer-division method! This can make a _huge_ difference when executing
+an operation millions, or even hundreds of thousands of times.
+
+````clojure
+(perf/benchmark 10 100000 "(int (/ 101 10))" #(int (/ 101 10)))
+(perf/benchmark 10 100000 "(/ 101 10)      " #(/ 101 10))
+(perf/benchmark 10 100000 "(quot 101 10)   " #(quot 101 10))
+````
+
+````
+## (int (/ 101 10)) - 10 x 100000 ops, average per-op: 183ns
+## (/ 101 10)       - 10 x 100000 ops, average per-op: 96ns
+## (quot 101 10)    - 10 x 100000 ops, average per-op: 27ns
+````
+
+[benchmark-blog]: https://michaelwhatcott.com/benchmarking-clojure-code/
+[benchmark-code]: https://github.com/mdwhatcott/advent-of-code/blob/main/clj/src/aoc/perf.clj
