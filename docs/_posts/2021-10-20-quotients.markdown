@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Quotients"
-date:   2021-10-19 7:52:05 -0400
+date:   2021-10-20 7:52:05 -0400
 categories: clojure apprenticeship
 ---
 
