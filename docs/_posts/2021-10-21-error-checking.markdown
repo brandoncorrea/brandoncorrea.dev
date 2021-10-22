@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Quotients"
+title:  "Error Checking"
 date:   2021-10-21 7:52:05 -0400
 categories: clojure apprenticeship
 ---
