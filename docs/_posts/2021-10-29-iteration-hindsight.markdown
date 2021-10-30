@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Iteration Hindsight"
-date:   2021-10-22 7:52:05 -0400
+date:   2021-10-29 7:52:05 -0400
 categories: clojure apprenticeship
 ---
 
