@@ -31,8 +31,8 @@ The process for Bubble Sort:
 While the implementation is simple, it performs significantly slower than 
 most other sorting algorithms.
 - Best Case: O(n)
-- Average Case: O(n^2)
-- Worst Case: O(n^2)
+- Average Case: O(n<sup>2</sup>)
+- Worst Case: O(n<sup>2</sup>)
 
 Because Bubble Sort always moves the greatest element to the top of the list,
 one optimization might be only sorting up to the N-1 element on each pass.
@@ -91,7 +91,7 @@ It's quite elegant how this algorithm works. It's not directly apparent that
 a list would become sorted following these steps, but it works well.
 
 The average performance for Quick Sort is O(n log n), with the worst case 
-being O(n^2). So it sits nicely between Bubble Sort and Merge Sort.
+being O(n<sup>2</sup>). So it sits nicely between Bubble Sort and Merge Sort.
 
 [algorithms]: https://www.youtube.com/watch?v=kiFfp-HAu64&t=2780s
 [bubble-sort]: https://en.wikipedia.org/wiki/Bubble_sort
