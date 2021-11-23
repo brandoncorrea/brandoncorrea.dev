@@ -124,11 +124,11 @@ the cells differ by.
 
 ````clojure
 (defn differs-by-1? [& cells]
-  (= 1 (count (map (partial apply not=) (map-3d-positions cells)))))
+  (= 1 (count (filter (partial apply not=) (map-3d-positions cells)))))
 (defn differs-by-2? [& cells]
-  (= 2 (count (map (partial apply not=) (map-3d-positions cells)))))
+  (= 2 (count (filter (partial apply not=) (map-3d-positions cells)))))
 (defn differs-by-3? [& cells]
-  (= 3 (count (map (partial apply not=) (map-3d-positions cells)))))
+  (= 3 (count (filter (partial apply not=) (map-3d-positions cells)))))
 ````
 
 This change collapses all of these larger functions into one generic 
@@ -136,7 +136,7 @@ function.
 
 ````clojure
 (defn differs-by-n? [n & cells]
-  (= n (count (map (partial apply not=) (map-3d-positions cells)))))
+  (= n (count (filter (partial apply not=) (map-3d-positions cells)))))
 ````
 
 Now that I have this taken care of, next is to figure out how to actually
