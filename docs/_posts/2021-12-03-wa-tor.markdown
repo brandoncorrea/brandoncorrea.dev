@@ -1,0 +1,66 @@
+---
+layout: post
+title:  "Wa-Tor"
+date:   2021-12-03 7:52:05 -0400
+categories: apprenticeship
+---
+
+[Wa-Tor][wator-wiki] is a simulation where you have an ecosystem of 
+fish and sharks. The fish spend their lives reproducing and the sharks 
+spend their lives eating the fish–both trying to survive. Of course, 
+the only case where the sharks survive is when the ecosystem is in perfect 
+harmony; sharks and fish reproduce at the perfect rate and there are just
+enough fish to satisfy the sharks' hunger.
+
+I've been trying to do the Wa-Tor simulation as a Kata, but it turns out
+implementing this simulation as a whole is more like a small project–not
+exactly a 10-minute exercise.
+
+However, just like the Bowling Game Kata only implements some part of a 
+bowling game (the score for example), the Wa-Tor Kata could implement
+some part of the simulation.
+
+### Fish Kata
+
+The Fish in Wa-Tor do only two things:
+1. Move to an adjacent square if there is one available
+2. Reproduce every N moves
+
+This could most likely be implemented as a kata. It's small enough to be
+able to stay focused on, but there are still two things you're looking at:
+moving and reproducing.
+
+### Shark Kata
+
+The Sharks in Wa-Tor have a few more rules than fish:
+1. Move to an adjacent square:
+   - If a square has a fish, move to that square and eat the fish.
+   - If no squares have a fish, move to an adjacent square if there is one available.
+2. Reproduce every N moves
+3. When a fish is eaten, gain some E amount of energy.
+4. Lose some amount of energy on every move.
+5. When energy reaches 0, the shark dies.
+
+I thought about doing a Shark Kata, but there are just too many rules 
+that need to be implemented: moving, reproducing, eating, gaining and losing
+energy. It's possible that this could be broken down though. Maybe a
+"move" kata?
+
+### Chronon Kata
+
+In Wa-Tor, each position on the board is referred to as a Chronon.
+
+Both Sharks and Fish need to move at some point. So maybe a kata could be 
+done around selecting which Chronon to move to next:
+1. Only adjacent Chronons can be selected.
+2. If the unit is a shark and there is a fish available, choose that fish's Chronon.
+3. Otherwise, choose any empty Chronon.
+4. If there are no empty Chronons, then choose the unit's current Chronon.
+
+This seems like a good start for a Kata. There is a single focus: choose a 
+Chronon. The rule set seems large enough for a Kata, but not too complicated
+where it would be too long of an exercise.
+
+So far our Candidates are: Fish Kata and Chronon Kata!
+
+[wator-wiki]: https://en.wikipedia.org/wiki/Wa-Tor
