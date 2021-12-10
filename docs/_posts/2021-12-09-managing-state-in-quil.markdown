@@ -41,7 +41,7 @@ then the function might end up looking like one of these:
   (if (= :human (get-in state [:play :player :type]))
     #_...do_something))
 
-(defn do-something-else-if-human [{{{type :type} :player} :play}]
+(defn do-something-else-if-human [{% raw %}{{{type :type} :player} :play}{% endraw %}]
   (if (= :human type)
     #_...do_something_else))
 ````
