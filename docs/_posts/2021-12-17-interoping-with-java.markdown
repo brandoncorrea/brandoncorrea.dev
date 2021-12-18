@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Interoping with Java"
-date:   2021-12-16 7:52:05 -0400
+date:   2021-12-17 7:52:05 -0400
 categories: clojure apprenticeship
 ---
 
