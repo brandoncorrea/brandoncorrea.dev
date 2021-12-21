@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Anonymous Types in Clojure"
-date:   2021-12-17 7:52:05 -0400
+date:   2021-12-20 7:52:05 -0400
 categories: clojure apprenticeship
 ---
 
