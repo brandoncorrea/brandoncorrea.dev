@@ -69,7 +69,7 @@ Java::Hello_world::core
 Java::Hello_world::core
 ````
 
-### Executing Main
+### Class Execution
 
 Once you have the class reference, you can treat the rest of the statement
 just as any other Ruby or Java class!
