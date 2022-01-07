@@ -6,8 +6,8 @@ categories: clojure apprenticeship
 ---
 
 I just finished making my first [ClojureScript][clojurescript] project by 
-creating a new UI for Tic Tac Toe! Here I used [Reagent][reagent], which is 
-a sort of bridge between React and Clojure.
+creating a new [UI for Tic Tac Toe][ttt-cljs]! Here I used [Reagent][reagent], 
+which is a sort of bridge between React and Clojure.
 
 Of course, being new to ClojureScript, I ended up running into a few problems.
 I had found several ways of compiling ClojureScript to JavaScript, but I 
@@ -36,5 +36,6 @@ was blinking and the test output was red... a wonderful sight indeed.
 [reagent]: https://github.com/reagent-project/reagent
 [cljs-sample-project]: https://github.com/mdwhatcott/cljs-sample-project
 [ttt-core]: https://github.com/brandoncorrea/ttt-core
+[ttt-cljs]: https://github.com/brandoncorrea/ttt-cljs
 [clojars]: https://clojars.org
 [clojurescript]: https://clojurescript.org
