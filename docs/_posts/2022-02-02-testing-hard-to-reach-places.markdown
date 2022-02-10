@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Testing Hard-to-Reach Places"
-date:   2022-02-0 7:52:05 -0400
+date:   2022-02-02 7:52:05 -0400
 categories: clojure apprenticeship
 ---
 
