@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Datomic Ordered Lists"
-date:   2022-02-25 7:52:05 -0400
+date:   2022-03-11 7:52:05 -0400
 categories: clojure apprenticeship
 ---
 
