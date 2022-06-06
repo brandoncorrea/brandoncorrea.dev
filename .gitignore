@@ -1,6 +1,7 @@
-_site
+docs/_site
 _drafts
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
 vendor
+.idea
