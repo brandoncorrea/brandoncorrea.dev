@@ -2,7 +2,7 @@
 layout: post
 title:  "A Semantic UI Experiment"
 date:   2022-02-15 7:52:05 -0400
-categories: clojure apprenticeship
+categories: clojure, apprenticeship
 ---
 
 UI and design has always been one difficult for me, and when working in

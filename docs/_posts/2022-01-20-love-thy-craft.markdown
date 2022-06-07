@@ -2,7 +2,7 @@
 layout: post
 title:  "Love Thy Craft"
 date:   2022-01-20 7:52:05 -0400
-categories: craftsmanship apprenticeship
+categories: craftsmanship, apprenticeship
 ---
 
 There is always some question that plagues my mind from time to time:

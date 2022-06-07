@@ -2,7 +2,7 @@
 layout: post
 title:  "A Glimpse of Java"
 date:   2021-10-14 7:52:05 -0400
-categories: java apprenticeship
+categories: java, apprenticeship
 ---
 
 I've only ever used Java twice prior to today. The first time was shortly

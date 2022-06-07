@@ -2,7 +2,7 @@
 layout: post
 title:  "Path Permutations"
 date:   2021-11-30 7:52:05 -0400
-categories: euler apprenticeship
+categories: euler, apprenticeship
 ---
 
 Many of the problems in [Project Euler][project-euler] will hint toward 

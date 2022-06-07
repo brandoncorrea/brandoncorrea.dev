@@ -2,7 +2,7 @@
 layout: post
 title:  "Error Checking"
 date:   2021-10-21 7:52:05 -0400
-categories: clojure apprenticeship
+categories: clojure, apprenticeship
 ---
 
 I was working on a Tic-Tac-Toe game and needed to validate some user input.

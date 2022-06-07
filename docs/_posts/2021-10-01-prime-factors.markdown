@@ -2,7 +2,7 @@
 layout: post
 title:  "Prime Factors"
 date:   2021-10-01 11:14:25 -0400
-categories: euler apprenticeship
+categories: euler, apprenticeship
 ---
 I was working on [Euler Problem 3][euler-3] (find the max 
 prime factor of a number) earlier today. I wrote a lot of 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Testing with Anonymous Classes"
 date:   2021-12-13 7:52:05 -0400
-categories: java apprenticeship
+categories: java, apprenticeship
 ---
 
 I've been trying to find ways to unit test function that rely on complex 

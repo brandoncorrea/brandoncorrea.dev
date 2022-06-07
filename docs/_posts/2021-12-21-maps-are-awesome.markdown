@@ -2,7 +2,7 @@
 layout: post
 title:  "Maps are Awesome"
 date:   2021-12-21 7:52:05 -0400
-categories: clojure java apprenticeship
+categories: clojure, java, apprenticeship
 ---
 
 There are some types that will work fine with Java's interop, and others 

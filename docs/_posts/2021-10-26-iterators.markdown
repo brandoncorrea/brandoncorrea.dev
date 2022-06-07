@@ -2,7 +2,7 @@
 layout: post
 title:  "Iterators"
 date:   2021-10-26 7:52:05 -0400
-categories: java apprenticeship
+categories: java, apprenticeship
 ---
 
 Today I was working on implementing the [List][list-interface] interface in 

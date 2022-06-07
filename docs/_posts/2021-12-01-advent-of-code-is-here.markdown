@@ -2,7 +2,7 @@
 layout: post
 title:  "Advent of Code is Here!"
 date:   2021-12-01 7:52:05 -0400
-categories: clojure apprenticeship
+categories: clojure, apprenticeship
 ---
 
 [Advent of Code][advent-of-code] has arrived! A 

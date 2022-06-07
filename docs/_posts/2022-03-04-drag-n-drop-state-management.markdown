@@ -2,7 +2,7 @@
 layout: post
 title:  "Drag & Drop State Management"
 date:   2022-03-04 7:52:05 -0400
-categories: clojure apprenticeship
+categories: clojure, apprenticeship
 ---
 
 I've been working a lot with Drag & Drop features lately, and 

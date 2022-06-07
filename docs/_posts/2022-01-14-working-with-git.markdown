@@ -2,7 +2,7 @@
 layout: post
 title:  "Working with Git"
 date:   2022-01-14 7:52:05 -0400
-categories: git apprenticeship
+categories: git, apprenticeship
 ---
 
 Working on a team project has gotten me a lot more familiar with git,

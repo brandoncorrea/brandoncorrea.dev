@@ -2,7 +2,7 @@
 layout: post
 title:  "SOLID as Perfume"
 date:   2021-10-12 7:52:05 -0400
-categories: principles apprenticeship
+categories: principles, apprenticeship
 ---
 
 Have you ever been out somewhere and all of a sudden started choking on your own

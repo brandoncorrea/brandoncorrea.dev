@@ -2,7 +2,7 @@
 layout: post
 title:  "Testing Constants"
 date:   2022-03-07 7:52:05 -0400
-categories: clojure apprenticeship
+categories: clojure, apprenticeship
 ---
 
 A few days ago I wrote about [testing view code][testing-view-code], and 

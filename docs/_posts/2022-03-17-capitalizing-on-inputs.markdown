@@ -2,7 +2,7 @@
 layout: post
 title:  "Capitalizing on Inputs"
 date:   2022-03-17 7:52:05 -0400
-categories: clojure apprenticeship
+categories: clojure, apprenticeship
 ---
 
 Today I was working with a team member on displaying the first letter of

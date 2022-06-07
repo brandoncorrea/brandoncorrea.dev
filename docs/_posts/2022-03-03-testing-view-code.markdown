@@ -2,7 +2,7 @@
 layout: post
 title:  "Testing View Code"
 date:   2022-03-03 7:52:05 -0400
-categories: clojure apprenticeship
+categories: clojure, apprenticeship
 ---
 
 When building out a ClojureScript application, there are certain things we

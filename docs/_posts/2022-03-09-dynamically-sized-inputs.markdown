@@ -2,7 +2,7 @@
 layout: post
 title:  "Dynamically Sized Inputs"
 date:   2022-03-09 7:52:05 -0400
-categories: clojure apprenticeship
+categories: clojure, apprenticeship
 ---
 
 Today I was working on resizing a textbox automatically size itself to its contents.

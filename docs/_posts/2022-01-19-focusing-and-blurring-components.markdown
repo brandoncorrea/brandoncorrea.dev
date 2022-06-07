@@ -2,7 +2,7 @@
 layout: post
 title:  "Focusing and Blurring Components"
 date:   2022-01-19 7:52:05 -0400
-categories: clojure apprenticeship
+categories: clojure, apprenticeship
 ---
 
 Today I was trying to add an event listener to a Reagent component

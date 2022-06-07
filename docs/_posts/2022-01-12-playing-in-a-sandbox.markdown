@@ -2,7 +2,7 @@
 layout: post
 title:  "Playing in a Sandbox"
 date:   2022-01-12 7:52:05 -0400
-categories: clojure apprenticeship
+categories: clojure, apprenticeship
 ---
 
 I've been working on implementing some web designs that a coworker had 

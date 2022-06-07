@@ -2,7 +2,7 @@
 layout: post
 title:  "Clojure Compilation"
 date:   2021-12-22 7:52:05 -0400
-categories: clojure apprenticeship
+categories: clojure, apprenticeship
 ---
 
 I've heard that Clojure can be compiled into a JAR file, but never actually

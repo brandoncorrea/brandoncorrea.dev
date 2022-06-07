@@ -2,7 +2,7 @@
 layout: post
 title:  "Datomic (Free)!"
 date:   2021-11-29 7:52:05 -0400
-categories: clojure apprenticeship
+categories: clojure, apprenticeship
 ---
 
 After hours of Googling and YouTube, I finally have Datomic working in my application!

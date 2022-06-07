@@ -2,7 +2,7 @@
 layout: post
 title:  "Functions vs Macros"
 date:   2021-11-17 7:52:05 -0400
-categories: clojure apprenticeship
+categories: clojure, apprenticeship
 ---
 
 Macros have some clear differences from functions, but there is one more subtle 

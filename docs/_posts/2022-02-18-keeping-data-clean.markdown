@@ -2,7 +2,7 @@
 layout: post
 title:  "Keeping Data Clean"
 date:   2022-02-18 7:52:05 -0400
-categories: clojure apprenticeship
+categories: clojure, apprenticeship
 ---
 
 Data management can be complicated sometimes, especially when you're 

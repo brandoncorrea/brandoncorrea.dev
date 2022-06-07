@@ -2,7 +2,7 @@
 layout: post
 title:  "Anonymous Types in Clojure"
 date:   2021-12-20 7:52:05 -0400
-categories: clojure apprenticeship
+categories: clojure, apprenticeship
 ---
 
 I have some Java code that I'm trying to get my Clojure code 

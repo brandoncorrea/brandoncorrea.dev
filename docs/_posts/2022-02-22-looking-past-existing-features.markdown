@@ -2,7 +2,7 @@
 layout: post
 title:  "Looking Past Existing Features"
 date:   2022-02-22 7:52:05 -0400
-categories: clojure apprenticeship
+categories: clojure, apprenticeship
 ---
 
 We're often told to prefer for the simplest possible 

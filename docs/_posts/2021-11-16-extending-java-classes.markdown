@@ -2,7 +2,7 @@
 layout: post
 title:  "Extending Java Classes"
 date:   2021-11-16 7:52:05 -0400
-categories: java apprenticeship
+categories: java, apprenticeship
 ---
 
 I thought I'd try something new out in Java today, relating to inheritance.

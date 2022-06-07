@@ -2,7 +2,7 @@
 layout: post
 title:  "Setting Up Quil"
 date:   2021-12-02 7:52:05 -0400
-categories: clojure apprenticeship
+categories: clojure, apprenticeship
 ---
 
 Quil is a UI library for Clojure that I've recently started working with.

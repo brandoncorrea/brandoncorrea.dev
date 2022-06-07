@@ -2,7 +2,7 @@
 layout: post
 title:  "Reverse Sorting"
 date:   2022-03-21 7:52:05 -0400
-categories: clojure apprenticeship
+categories: clojure, apprenticeship
 ---
 
 I've been looking for ways to sort items in reverse order

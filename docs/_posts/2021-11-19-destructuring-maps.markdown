@@ -2,7 +2,7 @@
 layout: post
 title:  "Destructuring Maps"
 date:   2021-11-19 7:52:05 -0400
-categories: clojure apprenticeship
+categories: clojure, apprenticeship
 ---
 
 Yesterday I wrote about how 

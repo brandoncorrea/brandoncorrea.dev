@@ -2,7 +2,7 @@
 layout: post
 title:  "Iteration Hindsight"
 date:   2021-10-29 7:52:05 -0400
-categories: clojure apprenticeship
+categories: clojure, apprenticeship
 ---
 
 When planning sprints each week, we have an Iteration Planning Meeting (IPM) where we 

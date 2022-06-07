@@ -2,7 +2,7 @@
 layout: post
 title:  "Function Arguments in Ruby"
 date:   2021-12-29 7:52:05 -0400
-categories: ruby apprenticeship
+categories: ruby, apprenticeship
 ---
 
 Sometimes you just need to pass a function to another function, and Ruby provides a few 

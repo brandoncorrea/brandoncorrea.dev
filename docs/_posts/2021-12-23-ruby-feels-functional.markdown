@@ -2,7 +2,7 @@
 layout: post
 title:  "Ruby feels ... functional?"
 date:   2021-12-23 7:52:05 -0400
-categories: ruby apprenticeship
+categories: ruby, apprenticeship
 ---
 
 I recently started learning Ruby and going through the [koans][ruby-koans].

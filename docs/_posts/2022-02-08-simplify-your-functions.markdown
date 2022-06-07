@@ -2,7 +2,7 @@
 layout: post
 title:  "Simplify Your Functions"
 date:   2022-02-08 7:52:05 -0400
-categories: clojure apprenticeship
+categories: clojure, apprenticeship
 ---
 
 I was working on a math problem today trying to determine

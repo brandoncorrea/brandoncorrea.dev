@@ -2,7 +2,7 @@
 layout: post
 title:  "CSS Variables"
 date:   2022-02-01 7:52:05 -0400
-categories: css javascript clojure apprenticeship
+categories: css, javascript, clojure, apprenticeship
 ---
 
 Over the past couple of days, I've been working on implementing 

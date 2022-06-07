@@ -2,7 +2,7 @@
 layout: post
 title:  "Visualizing Component Names"
 date:   2022-02-25 7:52:05 -0400
-categories: clojure apprenticeship
+categories: clojure, apprenticeship
 ---
 
 When writing view code, careful selection of component names 

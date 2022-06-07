@@ -2,7 +2,7 @@
 layout: post
 title:  "Hash Maps in Clojure"
 date:   2021-12-06 7:52:05 -0400
-categories: clojure apprenticeship
+categories: clojure, apprenticeship
 ---
 
 Hash-Maps are key-value data structures used to store values and lookup 

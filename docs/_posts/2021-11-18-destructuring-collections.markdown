@@ -2,7 +2,7 @@
 layout: post
 title:  "Destructuring Collections"
 date:   2021-11-18 7:52:05 -0400
-categories: clojure apprenticeship
+categories: clojure, apprenticeship
 ---
 
 The idea of destructuring parameters was confusing to me at first,

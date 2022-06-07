@@ -2,7 +2,7 @@
 layout: post
 title:  "Datomic Ordered Lists"
 date:   2022-03-11 7:52:05 -0400
-categories: clojure apprenticeship
+categories: clojure, apprenticeship
 ---
 
 In Datomic, you can find ways to make one-to-many associations

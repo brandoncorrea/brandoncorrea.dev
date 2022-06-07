@@ -2,7 +2,7 @@
 layout: post
 title:  "Search Queries"
 date:   2021-10-22 7:52:05 -0400
-categories: java apprenticeship
+categories: java, apprenticeship
 ---
 
 Today I started implementing Java's [List][list-interface] interface using a
