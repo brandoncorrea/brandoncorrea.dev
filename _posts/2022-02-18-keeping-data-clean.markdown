@@ -67,4 +67,4 @@ given this entity.
 Just as it's important to keep your code clean, it is equally
 important to keep your data clean.
 
-[dead-code]: https://brandoncorrea.dev/apprenticeship/2022/02/04/death-to-dead-code.html
+[dead-code]: /apprenticeship/2022/02/04/death-to-dead-code.html

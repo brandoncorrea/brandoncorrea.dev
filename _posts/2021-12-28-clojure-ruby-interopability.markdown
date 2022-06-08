@@ -109,5 +109,5 @@ with regular ol' `ruby`, then you may get some errors like this.
 `require': cannot load such file -- /path/to/my/hello-world.jar
 ````
 
-[clojure-compilation]: https://brandoncorrea.dev/clojure/java/apprenticeship/2021/12/27/more-on-clojure-compilation.html
+[clojure-compilation]: /clojure/java/apprenticeship/2021/12/27/more-on-clojure-compilation.html
 [jruby]: https://github.com/jruby/jruby

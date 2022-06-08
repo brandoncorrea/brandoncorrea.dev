@@ -162,4 +162,4 @@ public class core {
 Now we're ready to compile. Running `lein uberjar` should create a jar
 file with `main`, `hello`, and `static_hello` functions!
 
-[clojure-compilation]: https://brandoncorrea.dev/clojure/apprenticeship/2021/12/22/clojure-compilation.html
+[clojure-compilation]: /clojure/apprenticeship/2021/12/22/clojure-compilation.html

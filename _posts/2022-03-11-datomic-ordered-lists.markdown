@@ -44,4 +44,4 @@ stable list interface that doesn't live on the entities
 themselves but in its own entity, this would *probably* 
 be the best option.
 
-[linked-lists]: https://brandoncorrea.dev/clojure/apprenticeship/2022/02/16/linked-lists-are-painful.html
+[linked-lists]: /clojure/apprenticeship/2022/02/16/linked-lists-are-painful.html

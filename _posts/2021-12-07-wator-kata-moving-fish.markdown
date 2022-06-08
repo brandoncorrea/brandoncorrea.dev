@@ -279,5 +279,5 @@ Now we can start our Wa-Tor simulation and see how our fish start moving across 
       pos))
 ````
 
-[wator-blog]: https://brandoncorrea.dev/apprenticeship/2021/12/03/wa-tor.html
+[wator-blog]: /apprenticeship/2021/12/03/wa-tor.html
 [wator]: https://en.wikipedia.org/wiki/Wa-Tor

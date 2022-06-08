@@ -132,4 +132,4 @@ But hopefully this demonstrated the power of destructuring parameters,
 and you're able to take something away from this for the betterment of 
 your code!
 
-[destructuring-collections]: https://brandoncorrea.dev/clojure/apprenticeship/2021/11/18/destructuring-collections.html
+[destructuring-collections]: /clojure/apprenticeship/2021/11/18/destructuring-collections.html
