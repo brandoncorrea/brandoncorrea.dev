@@ -2,7 +2,7 @@
 layout: post
 title:  "Shortcuts with Conditionals"
 date:   2021-11-24 7:52:05 -0400
-categories: clojure, apprenticeship
+categories: clojure apprenticeship
 ---
 
 ### Conditional Operators

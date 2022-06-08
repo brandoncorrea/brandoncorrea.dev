@@ -2,7 +2,7 @@
 layout: post
 title:  "Composing Small Namespaces"
 date:   2022-01-21 7:52:05 -0400
-categories: clojure, apprenticeship
+categories: clojure apprenticeship
 ---
 
 Constantly refactoring after each passing test is an important

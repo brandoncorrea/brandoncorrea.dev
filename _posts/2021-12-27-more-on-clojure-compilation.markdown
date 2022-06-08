@@ -2,7 +2,7 @@
 layout: post
 title:  "More on Clojure Compilation"
 date:   2021-12-27 7:52:05 -0400
-categories: clojure, java, apprenticeship
+categories: clojure java apprenticeship
 ---
 
 A few days ago I wrote about how you can 

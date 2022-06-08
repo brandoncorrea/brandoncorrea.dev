@@ -2,7 +2,7 @@
 layout: post
 title:  "Form 2 Parameters in ClojureScript"
 date:   2022-01-31 7:52:05 -0400
-categories: clojure, clojurescript, apprenticeship
+categories: clojure clojurescript apprenticeship
 ---
 
 Today I was working on a bug that was caused by my component not

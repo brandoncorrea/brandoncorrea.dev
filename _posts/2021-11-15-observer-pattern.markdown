@@ -2,7 +2,7 @@
 layout: post
 title:  "Observer Pattern"
 date:   2021-11-15 7:52:05 -0400
-categories: patterns, apprenticeship
+categories: patterns apprenticeship
 ---
 
 How do you get many things to stay consistent with one another without 

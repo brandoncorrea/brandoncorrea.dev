@@ -2,7 +2,7 @@
 layout: post
 title:  "Function Composition with Partial"
 date:   2022-02-11 7:52:05 -0400
-categories: clojure, apprenticeship
+categories: clojure apprenticeship
 ---
 
 One thing I've found interesting about Clojure is how there are several ways of 

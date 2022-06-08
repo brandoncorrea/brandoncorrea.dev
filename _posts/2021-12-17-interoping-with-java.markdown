@@ -2,7 +2,7 @@
 layout: post
 title:  "Interoping with Java"
 date:   2021-12-17 7:52:05 -0400
-categories: clojure, apprenticeship
+categories: clojure apprenticeship
 ---
 
 I didn't realize how easy it was to pull external JAR files into a 

@@ -2,7 +2,7 @@
 layout: post
 title:  "Linked Lists are Painful"
 date:   2022-02-16 7:52:05 -0400
-categories: clojure, apprenticeship
+categories: clojure apprenticeship
 ---
 
 Some of the most buggy parts of the code I've been working in recently 

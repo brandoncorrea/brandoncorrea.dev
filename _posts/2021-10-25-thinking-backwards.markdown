@@ -2,7 +2,7 @@
 layout: post
 title:  "Thinking Backwards"
 date:   2021-10-25 7:52:05 -0400
-categories: clojure, apprenticeship
+categories: clojure apprenticeship
 ---
 
 A few days ago I discussed a recursive algorithm for calculating the number of 

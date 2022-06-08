@@ -2,7 +2,7 @@
 layout: post
 title:  "Yearn to Learn"
 date:   2022-01-24 7:52:05 -0400
-categories: craftsmanship, apprenticeship
+categories: craftsmanship apprenticeship
 ---
 
 As developers, we are always told things like _never stop learning_ or

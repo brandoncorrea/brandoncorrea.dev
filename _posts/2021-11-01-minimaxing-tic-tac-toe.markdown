@@ -2,7 +2,7 @@
 layout: post
 title:  "Minimaximizing Tic Tac Toe"
 date:   2021-11-01 7:52:05 -0400
-categories: clojure, minimax, apprenticeship
+categories: clojure minimax apprenticeship
 ---
 
 I've been trying to get the [Minimax][minimax] algorithm to work with a Tic Tac Toe game

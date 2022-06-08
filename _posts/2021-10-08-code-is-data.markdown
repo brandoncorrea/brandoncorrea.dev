@@ -2,7 +2,7 @@
 layout: post
 title:  "Code is Data"
 date:   2021-10-08 7:52:05 -0400
-categories: clojure, apprenticeship
+categories: clojure apprenticeship
 ---
 
 "Code is Data." I've seen this before somewhere in my journey through Clojure,

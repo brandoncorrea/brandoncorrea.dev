@@ -2,7 +2,7 @@
 layout: post
 title:  "Serving Files Through HTTP"
 date:   2021-12-15 7:52:05 -0400
-categories: java, apprenticeship
+categories: java apprenticeship
 ---
 
 I spent some time today trying to transfer various file types over Sockets

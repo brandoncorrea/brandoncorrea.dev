@@ -2,7 +2,7 @@
 layout: post
 title:  "Preemptive Optimization"
 date:   2022-01-25 7:52:05 -0400
-categories: craftsmanship, apprenticeship
+categories: craftsmanship apprenticeship
 ---
 
 In the past, I would structure my code in such a way that it would execute in the least

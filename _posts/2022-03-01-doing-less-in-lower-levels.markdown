@@ -2,7 +2,7 @@
 layout: post
 title:  "Doing Less in Lower Levels"
 date:   2022-03-01 7:52:05 -0400
-categories: clojure, apprenticeship
+categories: clojure apprenticeship
 ---
 
 When working with functions at lower level in a codebase,

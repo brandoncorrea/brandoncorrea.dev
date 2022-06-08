@@ -2,7 +2,7 @@
 layout: post
 title:  "Clojure is REALLY Lazy"
 date:   2022-02-23 7:52:05 -0400
-categories: clojure, apprenticeship
+categories: clojure apprenticeship
 ---
 
 You may have heard that Clojure is lazy. This

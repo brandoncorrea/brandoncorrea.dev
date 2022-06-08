@@ -2,7 +2,7 @@
 layout: post
 title:  "Skip to the Main Idea"
 date:   2022-01-17 7:52:05 -0400
-categories: clojure, apprenticeship
+categories: clojure apprenticeship
 ---
 
 Sometimes you run into some functionality that you want to implement,

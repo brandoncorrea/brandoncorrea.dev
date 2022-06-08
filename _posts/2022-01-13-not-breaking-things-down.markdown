@@ -2,7 +2,7 @@
 layout: post
 title:  "Not Breaking Things Down"
 date:   2022-01-13 7:52:05 -0400
-categories: clojure, apprenticeship
+categories: clojure apprenticeship
 ---
 
 Sometimes it's best not to break things down in smaller pieces.

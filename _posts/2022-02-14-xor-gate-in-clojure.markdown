@@ -2,7 +2,7 @@
 layout: post
 title:  "XOR Gate in Clojure"
 date:   2022-02-14 7:52:05 -0400
-categories: clojure, apprenticeship
+categories: clojure apprenticeship
 ---
 
 ### Logic Gates

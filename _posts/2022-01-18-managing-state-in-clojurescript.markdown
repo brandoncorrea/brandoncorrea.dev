@@ -2,7 +2,7 @@
 layout: post
 title:  "Managing State in ClojureScript"
 date:   2022-01-18 7:52:05 -0400
-categories: clojure, apprenticeship
+categories: clojure apprenticeship
 ---
 
 I've noticed a couple prominent forms of data management in ClojureScript

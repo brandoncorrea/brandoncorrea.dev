@@ -2,7 +2,7 @@
 layout: post
 title:  "Abstract Factory Pattern"
 date:   2021-11-04 7:52:05 -0400
-categories: patterns, apprenticeship
+categories: patterns apprenticeship
 ---
 
 Today I began researching a design pattern, Abstract Factory! I feel like

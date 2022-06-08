@@ -2,7 +2,7 @@
 layout: post
 title:  "Key-Value Reduction"
 date:   2021-11-02 7:52:05 -0400
-categories: clojure, apprenticeship
+categories: clojure apprenticeship
 ---
 
 While I was working on the Coin Changer Kata today, I ran across a neat 

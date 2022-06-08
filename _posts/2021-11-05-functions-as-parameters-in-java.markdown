@@ -2,7 +2,7 @@
 layout: post
 title:  "Functions as Parameters in Java"
 date:   2021-11-05 7:52:05 -0400
-categories: java, apprenticeship
+categories: java apprenticeship
 ---
 
 Today I implemented a sort method in Java using the Bubble Sort algorithm! 

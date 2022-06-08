@@ -2,7 +2,7 @@
 layout: post
 title:  "Clojure-Ruby Interopability"
 date:   2021-12-28 7:52:05 -0400
-categories: clojure, ruby, apprenticeship
+categories: clojure ruby apprenticeship
 ---
 
 In [yesterday's blog post][clojure-compilation], I talked about how we can 

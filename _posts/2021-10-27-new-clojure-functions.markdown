@@ -2,7 +2,7 @@
 layout: post
 title:  "New (to me) Clojure Functions"
 date:   2021-10-27 7:52:05 -0400
-categories: clojure, apprenticeship
+categories: clojure apprenticeship
 ---
 
 While working on a Tic Tac Toe game, I ran across a some neat Clojure functions:

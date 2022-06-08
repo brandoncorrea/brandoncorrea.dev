@@ -2,7 +2,7 @@
 layout: post
 title:  "Multimethods Are Just Interfaces"
 date:   2022-03-15 7:52:05 -0400
-categories: clojure, apprenticeship
+categories: clojure apprenticeship
 ---
 
 I'm currently working on some drag & drop updates, and I've been

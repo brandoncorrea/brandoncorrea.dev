@@ -2,7 +2,7 @@
 layout: post
 title:  "Testing ClojureScript's Behavior"
 date:   2022-01-10 7:52:05 -0400
-categories: clojure, apprenticeship
+categories: clojure apprenticeship
 ---
 
 I've recently been introduced to a new way of testing ClojureScript code

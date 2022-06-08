@@ -2,7 +2,7 @@
 layout: post
 title:  "ClojureScript Tic Tac Toe!"
 date:   2022-01-07 7:52:05 -0400
-categories: clojure, apprenticeship
+categories: clojure apprenticeship
 ---
 
 I just finished making my first [ClojureScript][clojurescript] project by 

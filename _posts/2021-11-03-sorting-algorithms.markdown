@@ -2,7 +2,7 @@
 layout: post
 title:  "Sorting Algorithms"
 date:   2021-11-03 7:52:05 -0400
-categories: clojure, apprenticeship
+categories: clojure apprenticeship
 ---
 
 Today I watched a documentary about algorithms,

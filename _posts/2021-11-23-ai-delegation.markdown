@@ -2,7 +2,7 @@
 layout: post
 title:  "AI Delegation"
 date:   2021-11-23 7:52:05 -0400
-categories: clojure, apprenticeship
+categories: clojure apprenticeship
 ---
 
 As my Tic Tac Toe boards become more and more complex (4x4 and 3x3x3),

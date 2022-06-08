@@ -2,7 +2,7 @@
 layout: post
 title:  "Keeping Reagent Forms Separate"
 date:   2022-01-11 7:52:05 -0400
-categories: clojure, apprenticeship
+categories: clojure apprenticeship
 ---
 
 Do you ever spend WAY too much time debugging an issue only to find

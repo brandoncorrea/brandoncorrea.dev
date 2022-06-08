@@ -2,7 +2,7 @@
 layout: post
 title:  "Tic Tac Toe Paths"
 date:   2021-11-22 7:52:05 -0400
-categories: clojure, apprenticeship
+categories: clojure apprenticeship
 ---
 
 Today I was working on a 3-Dimensional Tic-Tac-Toe game and needed

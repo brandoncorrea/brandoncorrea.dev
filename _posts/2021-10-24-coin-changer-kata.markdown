@@ -2,7 +2,7 @@
 layout: post
 title:  "Coin Changer Kata"
 date:   2021-10-24 7:52:05 -0400
-categories: clojure, apprenticeship
+categories: clojure apprenticeship
 ---
 
 I've been working on the Coin Changer Kata this past week. Below is a sort

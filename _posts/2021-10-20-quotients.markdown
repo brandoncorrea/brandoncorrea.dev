@@ -2,7 +2,7 @@
 layout: post
 title:  "Quotients"
 date:   2021-10-20 7:52:05 -0400
-categories: clojure, apprenticeship
+categories: clojure apprenticeship
 ---
 
 A lot of times, it helps to check if there's a function for even the most basic 

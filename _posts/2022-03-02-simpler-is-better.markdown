@@ -2,7 +2,7 @@
 layout: post
 title:  "Simpler is Better"
 date:   2022-03-02 7:52:05 -0400
-categories: clojure, apprenticeship
+categories: clojure apprenticeship
 ---
 
 [Occam's Razor][occam] is a principle that favors simpler solutions or 

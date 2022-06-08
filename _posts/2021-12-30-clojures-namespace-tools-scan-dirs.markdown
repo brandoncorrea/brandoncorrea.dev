@@ -2,7 +2,7 @@
 layout: post
 title:  "Clojure's Namespace Tools: scan-dirs"
 date:   2021-12-30 7:52:05 -0400
-categories: clojure, apprenticeship
+categories: clojure apprenticeship
 ---
 
 [clojure.tools.namespace][clojure-tools] is a library that helps you track changes in your

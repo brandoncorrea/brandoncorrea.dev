@@ -2,7 +2,7 @@
 layout: post
 title:  "Alternate Clojure Forms"
 date:   2021-10-06 17:33:22 -0400
-categories: clojure, apprenticeship
+categories: clojure apprenticeship
 ---
 
 As I was practicing the Bowling Game Kata today, I was experimenting with 

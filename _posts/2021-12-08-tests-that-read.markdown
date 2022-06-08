@@ -2,7 +2,7 @@
 layout: post
 title:  "Tests That Read"
 date:   2021-12-08 7:52:05 -0400
-categories: clojure, apprenticeship
+categories: clojure apprenticeship
 ---
 
 When writing my tests, I only ever considered how it read in the test file,

@@ -2,7 +2,7 @@
 layout: post
 title:  "Dispatching with Protocols"
 date:   2021-10-28 7:52:05 -0400
-categories: clojure, apprenticeship
+categories: clojure apprenticeship
 ---
 
 I was working on adding a "Computer" player to my Tic Tac Toe game and needed 

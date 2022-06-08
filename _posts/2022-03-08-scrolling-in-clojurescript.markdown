@@ -2,7 +2,7 @@
 layout: post
 title:  "Scrolling in ClojureScript"
 date:   2022-03-08 7:52:05 -0400
-categories: clojure, apprenticeship
+categories: clojure apprenticeship
 ---
 
 I've been working a lot with features involving scrolling after clicking 

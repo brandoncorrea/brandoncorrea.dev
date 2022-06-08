@@ -2,7 +2,7 @@
 layout: post
 title:  "Threading Macros"
 date:   2021-10-04 23:11:22 -0400
-categories: clojure, apprenticeship
+categories: clojure apprenticeship
 ---
 
 I had the opportunity to play around with Clojure's threading macros today!

@@ -2,7 +2,7 @@
 layout: post
 title:  "A Short History of SRP"
 date:   2021-10-11 7:52:05 -0400
-categories: principles, apprenticeship
+categories: principles apprenticeship
 ---
 
 I was always bad at remembering names and dates in history class. But still,

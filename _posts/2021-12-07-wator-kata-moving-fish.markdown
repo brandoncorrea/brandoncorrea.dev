@@ -2,7 +2,7 @@
 layout: post
 title:  "Wa-Tor Kata: Moving Fish"
 date:   2021-12-07 7:52:05 -0400
-categories: clojure, apprenticeship
+categories: clojure apprenticeship
 ---
 
 A few days ago I wrote about some [different Katas][wator-blog] that could be done

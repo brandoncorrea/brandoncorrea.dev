@@ -2,7 +2,7 @@
 layout: post
 title:  "Quotes are Hard (at first)"
 date:   2021-10-13 7:52:05 -0400
-categories: clojure, apprenticeship
+categories: clojure apprenticeship
 ---
 
 You know that key that nobody ever uses ... ever? Well Clojure uses it, so get 

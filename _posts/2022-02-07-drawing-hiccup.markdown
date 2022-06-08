@@ -2,7 +2,7 @@
 layout: post
 title:  "Drawing Hiccup"
 date:   2022-02-07 7:52:05 -0400
-categories: clojure, apprenticeship
+categories: clojure apprenticeship
 ---
 
 As I work with Hiccup-like syntax, I'm realizing how easy it is to visualize what a 

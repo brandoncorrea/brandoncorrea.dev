@@ -2,7 +2,7 @@
 layout: post
 title:  "Forcing Components to Render in Reagent"
 date:   2022-03-23 7:52:05 -0400
-categories: clojure, apprenticeship
+categories: clojure apprenticeship
 ---
 
 I ran into an issue with Reagent the other day where some 
