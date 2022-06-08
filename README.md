@@ -36,7 +36,7 @@ Anything your pages depend on (scripts, images, etc.)
 
 ## Creating a New Page
 
-New pages are created under `/docs` with either an `html` or `markdown`
+New pages are created in the root director with either an `html` or `markdown` 
 file extension. 
 
 These file must contain a header with at least a 
