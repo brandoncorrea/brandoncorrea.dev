@@ -1,6 +1,6 @@
-# brandoncorrea.github.io
+# brandoncorrea.dev
 
-To start, `cd` into docs, run this command, and navigate to localhost:4000
+To start, run this command and navigate to localhost:4000
 ```
 bundle exec jekyll serve
 ```
