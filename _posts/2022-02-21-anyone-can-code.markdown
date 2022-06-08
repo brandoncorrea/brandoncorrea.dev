@@ -60,7 +60,7 @@ So if you are wanting and willing to learn how to code, take
 Fiddle around and see what works and doesn't work, then
 write a blog post with Kung Fu Panda quotes talking about what you learned!
 
-[experimentation]: https://brandoncorrea.github.io/apprenticeship/2022/01/28/experimentation.html
+[experimentation]: https://brandoncorrea.dev/apprenticeship/2022/01/28/experimentation.html
 [khanacademy]: https://www.khanacademy.org/computing/computer-programming
 [codecademy]: https://www.codecademy.com/
 [clojure-brave-and-true]: https://www.amazon.com/Clojure-Brave-True-Ultimate-Programmer/dp/1593275919/ref=sr_1_2?keywords=clojure+for+the+brave+and+true&qid=1645510455&sprefix=clojure+for+the+br%2Caps%2C194&sr=8-2

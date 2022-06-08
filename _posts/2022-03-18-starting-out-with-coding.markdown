@@ -41,4 +41,4 @@ Whatever language you decide on, the first place I would start is going
 through Koans for that language.
 
 [clojure-koans]: https://github.com/functional-koans/clojure-koans
-[anyone-can-code]: https://brandoncorrea.github.io/apprenticeship/2022/02/21/anyone-can-code.html
+[anyone-can-code]: https://brandoncorrea.dev/apprenticeship/2022/02/21/anyone-can-code.html

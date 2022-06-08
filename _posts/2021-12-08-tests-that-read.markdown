@@ -93,4 +93,4 @@ What about how positions relate to each other?
 
 Our specs should describe the application's behavior – not the functions we are testing.
 
-[wator-kata]: https://brandoncorrea.github.io/clojure/apprenticeship/2021/12/07/wator-kata-moving-fish.html
+[wator-kata]: https://brandoncorrea.dev/clojure/apprenticeship/2021/12/07/wator-kata-moving-fish.html

@@ -64,4 +64,4 @@ What do you think? Should we be testing constants? If so, in what scenarios shou
 we be testing them? If not, are there any scenarios you can think of where we would
 need to test them?
 
-[testing-view-code]: https://brandoncorrea.github.io/clojure/apprenticeship/2022/03/03/testing-view-code.html
+[testing-view-code]: https://brandoncorrea.dev/clojure/apprenticeship/2022/03/03/testing-view-code.html
