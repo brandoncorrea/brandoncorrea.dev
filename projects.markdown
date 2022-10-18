@@ -27,6 +27,12 @@ Something like this...
 </div>
 ````
 
+## [Discord Noob Bot](https://github.com/brandoncorrea/Noob)
+
+I've recently started creating a Discord Bot themed after 
+glorifying the "Noob" over the "Pro". You can join this 
+[Discord Channel](https://discord.gg/9bWWgezdjy) if you'd like to toy around with it!
+
 ## [Performance Scripts](https://github.com/brandoncorrea/performance)
 
 Just some scripts for performance and load testing...

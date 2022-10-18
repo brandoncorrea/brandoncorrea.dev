@@ -5,14 +5,9 @@
 layout: home
 ---
 
-Hello! My name is Brandon Correa, but you can call me any time 😜 
-The first thing you need to know about me
-is that I love math, and take pride in acing Algebra while sleeping
-through class in high school. 
-
-Now that that's out of the way, I also really enjoy coding and 
-playing music. When I have free time, it is usually spent doing one 
-of those two things.
+Hello! My name is Brandon Correa and this is my blog site. A
+few things I really enjoy are math, coding and playing music. 
+When I have free time, it is usually spent doing one of those two things.
 
 I've recently started exploring different topics like chemistry, hacking, 
 and a little bit of poetry. It'd be cool to get into Raspberry PI and robotics
