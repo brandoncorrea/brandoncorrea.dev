@@ -2,6 +2,7 @@
 layout: post
 title:  "A Value-Driven Approach to Stories"
 date:   2023-01-25 7:52:05 -0400
+categories: craftsmanship
 ---
 
 My approach to implementing stories has changed over time.
