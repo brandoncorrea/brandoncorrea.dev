@@ -7,8 +7,7 @@ categories: craftsmanship
 
 My approach to implementing stories has changed over time.
 I'd like to describe each point in this progression as well
-as where I finally landed on my approach to story 
-implementation.
+as where I finally landed on my approach to stories.
 
 ### One Branch per Story
 
@@ -41,7 +40,7 @@ Over time, I got into the habit of never committing failing
 code–even if only locally. I started treating every commit 
 as if it were a push to master. _Will this break things?_
 
-There are a couple natural benefits with this approach:
+There are several natural benefits with this approach:
 1. I don't wind up accidentally pushing bugs to master
 2. I can `git push` to master at any point in time
 3. I can safely `git checkout` any commit and still be passing
@@ -107,7 +106,7 @@ of the twelve principles of the [Agile Manifesto][agile-manifesto]:
     of work not done--is essential.
 
 The focus here is to deliver valuable, working software,
-soon and "lazily".
+soon and simply.
 
 #### Prioritizing Customer-Facing Components
 
@@ -129,7 +128,7 @@ piece to this story. Let's talk about that real quick.
 Remember, our goal is to deliver valuable and working 
 software early, frequently, and simply.
 
-Customers typically don't care how a thing is implemented.
+The customer typically doesn't care about how a thing is implemented.
 All the customer cares about is that the interface you 
 provide them gives them the feedback they expect, because
 that is the only part of the app they will ever use.
@@ -152,8 +151,7 @@ The customer would see a new feature with each push!
 Now with every commit, we're not only providing a passing 
 component, but adding value to the customer's product. 
 With this approach, you'd be encouraged to push to
-production throughout the iteration because each 
-commit provides _value._
+production throughout the day because each commit provides _value._
 
 #### Delaying Decisions
 
@@ -186,13 +184,13 @@ One of the best ways I've found in keeping things simple is to
 write no code until absolutely necessary. If it doesn't add value,
 the code serves no purpose but to complicate the existing codebase.
 
-In TDD, the simplest thing code you write to pass a failing test is to return
-a constant. In a Value-Driven approach, the simplest code you can write is
+In TDD, your first and simplest test is a no-op: "It does nothing", "It returns nil".
+In a Value-Driven approach, the simplest code you can write is
 a blank file... but even that's too complex! The file adds no value–delete it.
 
 To get into the right mindset, I've attributed this sort of malevolent 
 characteristic to code: That every line of code written is a sin against 
-my other sins (code). In most cases, these are necessary sins, but we must do our 
+my other sins (code). In most cases, these are necessary sins, and we must do our 
 best to minimize and simplify these sins.
 
 ### Summary
@@ -204,8 +202,7 @@ learned something new:
 3. Customer-Facing components provide the most value
 4. Starting with the UI helps to simplify the backend work
 
-I've had a lot to say. So if you were to leave here with 
-anything, leave with this:
+If you were to leave here with anything, leave with this:
 1. Commit small components of stories
 2. Only commit passing code
 3. Integrate with master throughout the day
