@@ -155,17 +155,45 @@ With this approach, you'd be encouraged to push to
 production throughout the iteration because each 
 commit provides _value._
 
-#### Simplicity
+#### Delaying Decisions
 
-Starting with the UI means delaying decisions made on the 
-backend _(maximizing the work not done)._ If the frontend
-doesn't need it, the customer will never see it,
+Delaying decisions is a key factor in keeping your code simple
+_(maximizing the work not done)._ However, this doesn't just
+apply to big decisions like infrastructure or which database to
+use. We can do this even in smaller the details of our stories!
+
+Starting with the UI means delaying decisions made on the backend.
+If the frontend doesn't need it, the customer will never see it,
 and the backend doesn't need it either!
 
-Remember, customers don't care how a thing is 
+Remember, customers don't care how a thing is
 implemented–the UI _is_ the app. So if the interface can
-trick the customer into thinking the app is working, 
+trick the customer into thinking the app is working,
 then the app is effectively working.
+
+#### Write No Code
+
+"Uncle Bob" has described [three rules of TDD][rules-of-tdd] in the past:
+1. You are not allowed to write any production code unless it is to make a failing unit test pass.
+2. You are not allowed to write any more of a unit test than is sufficient to fail; and compilation failures are failures.
+3. You are not allowed to write any more production code than is sufficient to pass the one failing unit test.
+
+We can re-word rules 1 and 3 a little to fit our approach to stories:
+1. You are not allowed to write any production code unless it is to _satisfy a story_.
+2. You are not allowed to write any more production code than is sufficient to _satisfy a story_.
+
+One of the best ways I've found in keeping things simple is to
+write no code until absolutely necessary. If it doesn't add value,
+the code serves no purpose but to complicate the existing codebase.
+
+In TDD, the simplest thing code you write to pass a failing test is to return
+a constant. In a Value-Driven approach, the simplest code you can write is
+a blank file... but even that's too complex! The file adds no value–delete it.
+
+To get into the right mindset, I've attributed this sort of malevolent 
+characteristic to code: That every line of code written is a sin against 
+my other sins (code). In most cases, these are necessary sins, but we must do our 
+best to minimize and simplify these sins.
 
 ### Summary
 
@@ -182,6 +210,7 @@ anything, leave with this:
 2. Only commit passing code
 3. Integrate with master throughout the day
 4. Start with components that provide _value_ to the customer
+5. Write no code until absolutely necessary
 
 At the end of the day, our priority is to deliver
 valuable software to the customer. These practices have
@@ -190,3 +219,4 @@ commits. I hope this can help you too.
 
 [agile-manifesto]: https://agilemanifesto.org/principles.html
 [continuous-integration]: https://en.wikipedia.org//wiki/Continuous_integration
+[rules-of-tdd]: http://butunclebob.com/ArticleS.UncleBob.TheThreeRulesOfTdd
