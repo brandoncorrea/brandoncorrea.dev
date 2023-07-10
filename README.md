@@ -1,9 +1,20 @@
 # brandoncorrea.dev
 
-To start, run this command and navigate to localhost:4000
-```
-bundle exec jekyll serve
-```
+Personal blog website.
+
+## Run
+
+    # Create CSS directory
+    mkdir assets/css
+
+    # Compile SCSS once for production...
+    sass _styles/main.scss assets/css/stylesheet.css --style compressed
+
+    # ...or watch for changes in development
+    sass --watch _styles/main.scss:assets/css/stylesheet.css
+
+    # Run
+    bundle exec jekyll serve
 
 ## Structure
 
@@ -29,6 +40,10 @@ date:   YYYY-MM-DD HH:MM:SS -0400
 categories: coffee steak COW
 ---
 ````
+
+### _styles
+
+SCSS for the entire site.
 
 ### _assets
 
